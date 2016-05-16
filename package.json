@@ -4,7 +4,7 @@
   "description": "Dynamic Dockerfile generation with metalsmith-dynamic and smart imports.",
   "main": "index.js",
   "scripts": {
-    "dev": "watch ./build.sh src"
+    "dev": "watch ./build.sh src partials"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "js-combinatorics": "^0.5.2",
     "lodash": "^4.12.0",
     "metalsmith": "^2.1.0",
-    "metalsmith-dynamic": "^0.1.2",
+    "metalsmith-dynamic": "^0.2.0",
     "metalsmith-in-place": "^1.4.3"
   },
   "devDependencies": {
