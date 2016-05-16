@@ -1,0 +1,32 @@
+{
+  "name": "dynamic-dockerfile",
+  "version": "0.1.0",
+  "description": "Dynamic Dockerfile generation with metalsmith-dynamic and smart imports.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "watch ./build.sh src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/resin-io-playground/dynamic-dockerfile.git"
+  },
+  "author": "Eugene Mirotin <eugene@resin.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/resin-io-playground/dynamic-dockerfile/issues"
+  },
+  "homepage": "https://github.com/resin-io-playground/dynamic-dockerfile",
+  "dependencies": {
+    "@resin.io/doxx-handlebars-helper": "^0.1.0",
+    "coffee-script": "^1.10.0",
+    "consolidate": "^0.14.0",
+    "js-combinatorics": "^0.5.2",
+    "lodash": "^4.12.0",
+    "metalsmith": "^2.1.0",
+    "metalsmith-dynamic": "^0.1.2",
+    "metalsmith-in-place": "^1.4.3"
+  },
+  "devDependencies": {
+    "watch": "^0.18.0"
+  }
+}
