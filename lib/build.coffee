@@ -8,24 +8,16 @@ Metalsmith = require('metalsmith')
 dynamic = require('metalsmith-dynamic')
 inplace = require('metalsmith-in-place')
 HbHelper = require('@resin.io/doxx-handlebars-helper')
+{ defaultPartialsSearch } = require('@resin.io/doxx-utils')
 
 rootDir = path.resolve(__dirname, '..')
 
 HbHelper.registerConsolidate(consolidate, importName: 'include')
 
-{ walkFiles, searchOrder} = require('./util')
-
-# TODO: dedupe this and utils with doxx?
-
-dynamicDefaults = walkFiles (file, files) ->
-  obj = files[file]
-  return if not obj.dynamic
-  obj.dynamic.$partials_search ?= searchOrder(obj.dynamic.variables)
-
 metalsmith = Metalsmith(rootDir)
 .source('src')
 .destination('dist')
-.use(dynamicDefaults())
+.use(defaultPartialsSearch())
 .use(dynamic({
   dictionaries: path.join(rootDir, 'dicts')
   populateFields: [ '$partials_search' ]
