@@ -1,0 +1,38 @@
+[
+  {
+    "id": "default",
+    "version": "0.10.22",
+    "hash": {
+      "amd64": "10.22.amd64.hash",
+      "i386": "10.22.i386.hash",
+      "armv6hf": "10.22.armv6hf.hash",
+      "armv7hf": "10.22.armv7hf.hash",
+      "armel": "10.22.armel.hash"  
+    },
+    "url": {
+      "amd64": "10.22.amd64.url",
+      "i386": "10.22.i386.url",
+      "armv6hf": "10.22.armv6hf.url",
+      "armv7hf": "10.22.armv7hf.url",
+      "armel": "10.22.armel.url"  
+    }
+  },
+  {
+    "id": "0.10.45",
+    "version": "0.10.45",
+    "hash": {
+      "amd64": "10.45.amd64.hash",
+      "i386": "10.45.i386.hash",
+      "armv6hf": "10.45.armv6hf.hash",
+      "armv7hf": "10.45.armv7hf.hash",
+      "armel": "10.45.armel.hash"  
+    },
+    "url": {
+      "amd64": "10.45.amd64.url",
+      "i386": "10.45.i386.url",
+      "armv6hf": "10.45.armv6hf.url",
+      "armv7hf": "10.45.armv7hf.url",
+      "armel": "10.45.armel.url"  
+    }
+  }
+]

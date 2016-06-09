@@ -4,7 +4,7 @@
     "name": "Alpine"
   },
   {
-    "id": "fedora",
-    "name": "Fedora"
+    "id": "debian",
+    "name": "Debian"
   }
 ]

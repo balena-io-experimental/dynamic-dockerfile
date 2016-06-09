@@ -1,0 +1,59 @@
+[
+  {
+    "id": "raspberrypi"
+  },
+  {
+    "id": "raspberrypi2"
+  },
+  {
+    "id": "raspberrypi3"
+  },
+  {
+    "id": "beaglebone"
+  },
+  {
+  	"id": "edison"
+  },
+  {
+    "id": "nuc"
+  },
+  {
+    "id": "vab820-quad"
+  },
+  {
+    "id": "zc702-zynq7"
+  },
+  {
+    "id": "odroid-c1"
+  },
+  {
+    "id": "odroid-ux3"
+  },
+  {
+    "id": "parallella-hdmi-resin"
+  },
+  {
+    "id": "nitrogen6x"
+  },
+  {
+    "id": "cubox-i"
+  },
+  {
+    "id": "ts4900"
+  },
+  {
+    "id": "colibri-imx6"
+  },
+  {
+    "id": "apalis-imx6"
+  },
+  {
+    "id": "ts7700"
+  },
+  {
+    "id": "artik5"
+  },
+  {
+    "id": "artik10"
+  }
+]
