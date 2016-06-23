@@ -1,1 +1,1 @@
-./node_modules/.bin/coffee ./lib/build.coffee
+./node_modules/.bin/coffee ./build/build.coffee

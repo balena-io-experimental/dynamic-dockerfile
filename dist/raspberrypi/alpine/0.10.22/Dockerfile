@@ -2,6 +2,8 @@
 # resin.io base image for Raspberry Pi v1 & ZERO, Alpine, node v0.10.22
 FROM alpine-armhf/alpine
 
+ENV BINARY_URL http://resin-packages.s3.amazonaws.com/node/v0.10.22/node-v0.10.22-linux-alpine-armhf.tar.gz
+
 apt-get install -y curl
 
 

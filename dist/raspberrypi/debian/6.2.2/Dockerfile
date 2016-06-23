@@ -2,6 +2,8 @@
 # resin.io base image for Raspberry Pi v1 & ZERO, Debian, node v6.2.2
 FROM armv6l/debian
 
+ENV BINARY_URL http://nodejs.org/dist/v6.2.2/node-v6.2.2-linux-armv6l.tar.gz
+
 
 
 COPY entry.sh /usr/bin/entry.sh

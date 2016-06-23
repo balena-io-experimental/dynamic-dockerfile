@@ -10,6 +10,8 @@ $arch: '{{ getArch }}'
 # resin.io base image for {{ $device.name }}, {{ $distro.name }}, node v{{ $node_version.id }}
 FROM {{ $arch }}/{{ $distro.id }}
 
+ENV BINARY_URL {{ nodeDownloadUrl }}
+
 {{ include "install" }}
 
 COPY entry.sh /usr/bin/entry.sh

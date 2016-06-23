@@ -2,6 +2,8 @@
 # resin.io base image for Raspberry Pi v1 & ZERO, Fedora, node v0.10.22
 FROM armv6hf/fedora
 
+ENV BINARY_URL http://resin-packages.s3.amazonaws.com/node/v0.10.22/node-v0.10.22-linux-armv6hf.tar.gz
+
 yum install curl
 
 
