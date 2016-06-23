@@ -12,7 +12,7 @@ do
   for version in $(ls -d *)
   do
     if [ ! -f $version/Dockerfile ]; then
-      rm -rf $folder/$version
+      rm -rf $version
       continue
     fi
 
