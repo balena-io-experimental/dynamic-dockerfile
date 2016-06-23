@@ -10,9 +10,18 @@ inplace = require('metalsmith-in-place')
 HbHelper = require('@resin.io/doxx-handlebars-helper')
 { defaultPartialsSearch } = require('@resin.io/doxx-utils')
 
+plugins = require('./ms-plugins')
+
 rootDir = path.resolve(__dirname, '..')
 
+# monkey-patch
+originalCompile = HbHelper.Handlebars.compile
+HbHelper.Handlebars.compile = (program, options = {}) ->
+  options.noEscape = true
+  return originalCompile(program, options)
+
 HbHelper.registerConsolidate(consolidate, importName: 'include')
+require('./hb-helpers')(HbHelper.Handlebars)
 
 metalsmith = Metalsmith(rootDir)
 .source('src')
@@ -22,6 +31,7 @@ metalsmith = Metalsmith(rootDir)
   dictionaries: path.join(rootDir, 'dicts')
   populateFields: [ '$partials_search' ]
 }))
+.use(plugins.expandProps())
 .use(inplace({
   engine: 'handlebars'
   partials: 'partials'
