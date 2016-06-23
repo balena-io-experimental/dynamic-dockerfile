@@ -29,5 +29,6 @@ metalsmith = Metalsmith(rootDir)
 .build (err) ->
   if err
     console.error err, err.stack
+    throw err
   else
     console.log('Done')
