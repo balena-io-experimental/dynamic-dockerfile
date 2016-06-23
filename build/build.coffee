@@ -32,6 +32,7 @@ metalsmith = Metalsmith(rootDir)
   populateFields: [ '$partials_search' ]
 }))
 .use(plugins.expandProps())
+.use(plugins.dropUnsupported())
 .use(inplace({
   engine: 'handlebars'
   partials: 'partials'

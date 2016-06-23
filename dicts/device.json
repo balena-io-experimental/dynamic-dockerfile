@@ -3,5 +3,35 @@
     "id": "raspberrypi",
     "name": "Raspberry Pi v1 & ZERO",
     "arch": "armv6hf"
+  },
+  {
+    "id": "raspberrypi2",
+    "name": "Raspberry 2",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "nuc",
+    "name": "Intel NUC",
+    "arch": "x64"
+  },
+  {
+    "id": "edison",
+    "name": "Intel Edison",
+    "arch": "armv6hf"
+  },
+  {
+    "id": "raspberrypi",
+    "name": "Raspberry Pi v1 & ZERO",
+    "arch": "x86"
+  },
+  {
+    "id": "ts7700",
+    "name": "TS-7700",
+    "arch": "armel"
+  },
+  {
+    "id": "artik5",
+    "name": "Artik 5",
+    "arch": "armv7hf"
   }
 ]

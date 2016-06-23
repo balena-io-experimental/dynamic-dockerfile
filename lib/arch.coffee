@@ -10,6 +10,8 @@ ALPINE_ARCH =
 
 module.exports = fixArch = (arch, distro, nodeVersion) ->
   if distro is 'alpine'
+    if semver.satisfies(nodeVersion, '0.12.x')
+      return UNSUPPORTED
     return ALPINE_ARCH[arch] or UNSUPPORTED
 
   if distro is 'debian' and semver.gte(nodeVersion, '4.0.0')
