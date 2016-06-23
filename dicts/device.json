@@ -10,19 +10,14 @@
     "arch": "armv7hf"
   },
   {
+    "id": "edison",
+    "name": "Intel Edison",
+    "arch": "x86"
+  },
+  {
     "id": "nuc",
     "name": "Intel NUC",
     "arch": "x64"
-  },
-  {
-    "id": "edison",
-    "name": "Intel Edison",
-    "arch": "armv6hf"
-  },
-  {
-    "id": "raspberrypi",
-    "name": "Raspberry Pi v1 & ZERO",
-    "arch": "x86"
   },
   {
     "id": "ts7700",
