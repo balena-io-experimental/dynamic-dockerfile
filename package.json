@@ -26,7 +26,8 @@
     "metalsmith": "^2.1.0",
     "metalsmith-dynamic": "^0.3.0",
     "metalsmith-in-place": "^1.4.3",
-    "semver": "^5.1.0"
+    "semver": "^5.1.0",
+    "grepit": "1.0.0"
   },
   "devDependencies": {
     "watch": "^0.19.1"

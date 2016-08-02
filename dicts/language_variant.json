@@ -1,0 +1,14 @@
+[
+  {
+    "id": "latest"
+  },
+  {
+    "id": "slim"
+  },
+  {
+    "id": "onbuild"
+  },
+  {
+    "id": "old_suite"
+  }
+]

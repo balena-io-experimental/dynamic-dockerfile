@@ -6,18 +6,78 @@
   },
   {
     "id": "raspberrypi2",
-    "name": "Raspberry 2",
+    "name": "Raspberry Pi 2",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "raspberrypi3",
+    "name": "Raspberry Pi 3",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "beaglebone",
+    "name": "Beaglebone Black",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "beaglebone-green-wifi",
+    "name": "Beaglebone Green Wireless",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "vab820-quad",
+    "name": "VIA VAB 820-quad",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "zc702-zynq7",
+    "name": "Zynq ZC702",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "odroid-c1",
+    "name": "ODROID-C1+",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "odroid-ux3",
+    "name": "ODROID-XU4",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "parallella-hdmi-resin",
+    "name": "Parallella",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "nitrogen6x",
+    "name": "Nitrogen 6X",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "cubox-i",
+    "name": "Hummingboard",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "apalis-imx6",
+    "name": "Apslis iMX6q",
     "arch": "armv7hf"
   },
   {
     "id": "edison",
     "name": "Intel Edison",
-    "arch": "x86"
+    "arch": "i386"
   },
   {
     "id": "nuc",
     "name": "Intel NUC",
-    "arch": "x64"
+    "arch": "amd64"
+  },
+  {
+    "id": "ts4900",
+    "name": "TS-4900",
+    "arch": "armv7hf"
   },
   {
     "id": "ts7700",
@@ -26,7 +86,12 @@
   },
   {
     "id": "artik5",
-    "name": "Artik 5",
+    "name": "Samsung Artik 5",
+    "arch": "armv7hf"
+  },
+  {
+    "id": "artik10",
+    "name": "Samsung Artik 10",
     "arch": "armv7hf"
   }
 ]

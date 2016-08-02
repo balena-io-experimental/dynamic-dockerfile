@@ -1,7 +1,7 @@
 { walkFiles } = require('@resin.io/doxx-utils')
 HbHelper = require('@resin.io/doxx-handlebars-helper')
 
-{ UNSUPPORTED } = require('../lib/arch')
+{ UNSUPPORTED } = require('../lib/node')
 
 exports.expandProps = walkFiles (file, files) ->
   obj = files[file]
