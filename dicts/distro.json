@@ -1,14 +1,17 @@
 [
   {
     "id": "debian",
-    "name": "Debian"
+    "name": "Debian",
+    "suite": [ "jessie", "wheezy", "sid" ]
   },
   {
     "id": "alpine",
-    "name": "Alpine"
+    "name": "Alpine",
+    "suite": [ "3.3", "edge", "3.2" ]
   },
   {
     "id": "fedora",
-    "name": "Fedora"
+    "name": "Fedora",
+    "suite": [ "24", "23" ]
   }
 ]

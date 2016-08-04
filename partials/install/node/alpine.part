@@ -1,0 +1,4 @@
+# Install dependencies
+RUN apk add --no-cache libgcc libstdc++ libuv
+
+{{> "install/node/_default" }}
