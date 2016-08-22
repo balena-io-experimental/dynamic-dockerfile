@@ -3,6 +3,7 @@
 FROM x64/debian
 
 ENV BINARY_URL http://nodejs.org/dist/v0.10.22/node-v0.10.22-linux-x64.tar.gz
+ENV CHECKSUM 123
 
 
 

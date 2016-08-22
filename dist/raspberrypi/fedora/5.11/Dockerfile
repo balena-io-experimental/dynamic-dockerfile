@@ -3,6 +3,7 @@
 FROM armv6hf/fedora
 
 ENV BINARY_URL http://resin-packages.s3.amazonaws.com/node/v5.11.1/node-v5.11.1-linux-armv6hf.tar.gz
+ENV CHECKSUM SHASUM_RPI
 
 yum install curl
 

@@ -3,6 +3,7 @@
 FROM alpine-armhf/alpine
 
 ENV BINARY_URL http://resin-packages.s3.amazonaws.com/node/v0.10.45/node-v0.10.45-linux-alpine-armhf.tar.gz
+ENV CHECKSUM SHASUM_ALPINE
 
 apt-get install -y curl
 

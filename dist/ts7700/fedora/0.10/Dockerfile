@@ -3,6 +3,7 @@
 FROM armel/fedora
 
 ENV BINARY_URL http://resin-packages.s3.amazonaws.com/node/v0.10.45/node-v0.10.45-linux-armel.tar.gz
+ENV CHECKSUM SHASUM_FEDORA
 
 yum install curl
 

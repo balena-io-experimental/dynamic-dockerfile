@@ -3,6 +3,7 @@
 FROM x64/fedora
 
 ENV BINARY_URL http://nodejs.org/dist/v0.12.14/node-v0.12.14-linux-x64.tar.gz
+ENV CHECKSUM SHASUM_FEDORA
 
 yum install curl
 

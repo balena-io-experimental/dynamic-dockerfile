@@ -11,6 +11,7 @@ $arch: '{{ getArch }}'
 FROM {{ $arch }}/{{ $distro.id }}
 
 ENV BINARY_URL {{ nodeDownloadUrl }}
+ENV CHECKSUM {{ include "shasum" }}
 
 {{ include "install" }}
 

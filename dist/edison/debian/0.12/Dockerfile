@@ -3,6 +3,7 @@
 FROM x86/debian
 
 ENV BINARY_URL http://nodejs.org/dist/v0.12.14/node-v0.12.14-linux-x86.tar.gz
+ENV CHECKSUM 123
 
 
 

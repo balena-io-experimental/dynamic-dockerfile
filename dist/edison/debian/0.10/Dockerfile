@@ -3,6 +3,7 @@
 FROM x86/debian
 
 ENV BINARY_URL http://nodejs.org/dist/v0.10.45/node-v0.10.45-linux-x86.tar.gz
+ENV CHECKSUM 123
 
 
 

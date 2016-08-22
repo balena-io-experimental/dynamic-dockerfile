@@ -3,6 +3,7 @@
 FROM alpine-i386/alpine
 
 ENV BINARY_URL http://resin-packages.s3.amazonaws.com/node/v6.2.2/node-v6.2.2-linux-alpine-i386.tar.gz
+ENV CHECKSUM SHASUM_ALPINE
 
 apt-get install -y curl
 

@@ -3,6 +3,7 @@
 FROM armel/debian
 
 ENV BINARY_URL http://resin-packages.s3.amazonaws.com/node/v4.4.5/node-v4.4.5-linux-armel.tar.gz
+ENV CHECKSUM 123
 
 
 

@@ -3,6 +3,7 @@
 FROM armv6hf/debian
 
 ENV BINARY_URL http://resin-packages.s3.amazonaws.com/node/v0.10.45/node-v0.10.45-linux-armv6hf.tar.gz
+ENV CHECKSUM SHASUM_RPI
 
 
 

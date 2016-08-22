@@ -3,6 +3,7 @@
 FROM armv7l/debian
 
 ENV BINARY_URL http://nodejs.org/dist/v6.2.2/node-v6.2.2-linux-armv7l.tar.gz
+ENV CHECKSUM 123
 
 
 

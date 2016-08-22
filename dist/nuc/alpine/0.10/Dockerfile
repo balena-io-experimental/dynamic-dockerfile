@@ -3,6 +3,7 @@
 FROM alpine-amd64/alpine
 
 ENV BINARY_URL http://resin-packages.s3.amazonaws.com/node/v0.10.45/node-v0.10.45-linux-alpine-amd64.tar.gz
+ENV CHECKSUM SHASUM_ALPINE
 
 apt-get install -y curl
 

@@ -3,6 +3,7 @@
 FROM armv6l/debian
 
 ENV BINARY_URL http://nodejs.org/dist/v5.11.1/node-v5.11.1-linux-armv6l.tar.gz
+ENV CHECKSUM SHASUM_RPI
 
 
 

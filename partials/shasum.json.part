@@ -1,0 +1,7 @@
+{
+  "_default": "123",
+  "alpine": "SHASUM_ALPINE",
+  "fedora": "SHASUM_FEDORA",
+  "raspberrypi": "SHASUM_RPI",
+  "raspberrypi+debian+0.10.22": "VERY_SPECIAL_SHASUM"
+}
